@@ -1,0 +1,48 @@
+# 编译输出
+Output/
+*.o
+*.d
+*.crf
+*.dep
+*.map
+*.lnp
+*.axf
+*.hex
+*.htm
+*.lst
+*.sct
+
+# MDK-ARM (Keil) 工程文件
+*.uvoptx
+*.uvprojx
+*.uvguix.*
+*.dbgconf
+
+# IAR 工程文件
+*.ewp
+*.ewd
+*.ewt
+*.ewp.xcl
+*.dep
+
+# VS Code
+.vscode/
+
+# 临时文件
+*.log
+*.tmp
+*.bak
+*.swp
+
+# CMSIS/STM32CubeMX生成的中间文件
+*/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/*.o
+*/Drivers/STM32F1xx_HAL_Driver/Src/*.o
+
+# 忽略用户配置
+*.user
+*.launch
+
+# 忽略自动生成的文件夹
+build/
+Debug/
+Release/
